@@ -2,10 +2,10 @@
 
 A Cat Photo webpage created using the most common HTML tags.
 
-## Tech Stack:
+### Tech Stack:
 
 - HTML 
 
 
-## Screenshots
+### Screenshot
 ![Cat Photo App Screenshot](../assets/images/screenshots/cat-photo.jpeg)
