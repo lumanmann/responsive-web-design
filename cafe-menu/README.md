@@ -2,10 +2,10 @@
 
 A Cafe Menu webpage created using CSS to set the color, font, size, and other aspects of HTML elements.
 
-### Tech Stack:
+## Tech Stack
 
 - HTML 
 - CSS
 
-### Screenshot:
+## Screenshot
 ![Cafe Menu Screenshot](../assets/images/screenshots/cafe-menu.jpeg)
