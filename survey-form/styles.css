@@ -1,0 +1,168 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: rgb(4, 112, 47);
+  color: black;
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+header {
+  background-color: rgb(2, 66, 46);
+  width: 100%;
+  align-items: center;
+  color: black;
+  padding: 0;
+  margin: 0;
+  padding-top: 30px;
+}
+
+main {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.5);
+  max-width: 1024px;
+  min-width: 350px;
+  width: 50vw;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+h1 {
+  padding-top: 50px;
+  font-size: 48px;
+  line-height: 1.2;
+}
+
+header p {
+  margin: 0;
+  padding-bottom: 20px;
+  border-bottom: 3px solid rgba(4, 27, 19, 0.8);
+}
+
+form {
+  margin: 0;
+  padding: 0 0 20px 0;
+  padding-bottom: 30px;
+  width: 100%;
+  text-align: left;
+}
+
+fieldset {
+  border: none;
+}
+
+label {
+  display: block;
+}
+
+.basic-info label {
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0.5rem 0;
+}
+
+.form-group p {
+  font-size: 20px;
+}
+
+input,
+textarea,
+select {
+  margin: 1px 0 12px 0;
+  width: 100%;
+  min-height: 2em;
+  font-size: 16px;
+}
+
+a,
+a:visited {
+  color: black;
+}
+
+a:hover,
+a:active {
+  color: rgb(4, 112, 47);
+}
+
+.form-group label {
+  font-size: 18px;
+  vertical-align: middle;
+}
+
+.input-radio,
+.input-checkbox {
+  display: inline-block;
+  margin-right: 0.625rem;
+  min-height: 1.25rem;
+  min-width: 1.25rem;
+  vertical-align: baseline;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  background-color: #fff;
+  margin: 0;
+  font: inherit;
+  width: 1.15em;
+  height: 1.15em;
+  border-radius: 0.15em;
+  transform: translateY(-0.075em);
+  border: 0.15em solid currentColor;
+  vertical-align: middle;
+  font-size: 18px;
+  accent-color: rgb(4, 112, 47);
+}
+
+.input-textarea {
+  height: 100px;
+  padding: 8px;
+}
+
+.submit-button {
+  border: 0;
+  background-color: rgb(1, 50, 20);
+  color: white;
+  display: block;
+  width: 100%;
+  border-radius: 2px;
+  cursor: pointer;
+  height: 60px;
+  font-size: 18px;
+}
+
+.submit-button:hover {
+  background-color: rgb(4, 112, 47);
+}
+
+.form-group {
+  margin: 12px auto;
+}
+
+footer {
+  margin: 0;
+  padding: 10px 0 20px 0;
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+footer .container {
+  background-color: rgb(4, 112, 47);
+}
+
+footer p {
+  line-height: 1;
+}
+
+footer a {
+  margin: 0 auto 20px 12px;
+}
